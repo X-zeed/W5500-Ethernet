@@ -4,9 +4,9 @@
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 
 #define SCK_PIN   6
-#define MISO_PIN  5
-#define MOSI_PIN  7
-#define CS_PIN    10
+#define MISO_PIN  1
+#define MOSI_PIN  0
+#define CS_PIN    7
 
 void setup() {
   Serial.begin(115200);
