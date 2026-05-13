@@ -8,9 +8,9 @@ IPAddress subnet(255, 255, 255, 0);
 IPAddress gateway(192, 168, 1, 1);
 
 #define SCK_PIN   6
-#define MISO_PIN  5
-#define MOSI_PIN  7
-#define CS_PIN    10
+#define MISO_PIN  1
+#define MOSI_PIN  0
+#define CS_PIN    7
 
 void setup() {
   Serial.begin(115200);
